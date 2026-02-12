@@ -1,0 +1,29 @@
+
+Hide Assignment Information
+Instructions
+Assignment 1 - Please submit a video going through the assignment
+
+Create an iPhone app that will do the following:
+
+Create a form with the following UI elements: 
+
+At least 8 UITextfields 
+At least 8 UILabels
+At least 1 UISwitch
+At least 3 PickerViews
+At least 1 UIButton (submit button)
+At least 1 UISlider 
+Optionally, elements should be held inside stack views 
+When a user presses the submit button, the form should take them to another UIViewController using a segue - displaying all the information inside a UITextView. 
+
+From the second page, add another segue to a third page, that asks the user a random math question. They will need to fill the answer to the math question. This question should be randomized each time they go to this page. 
+
+When the users answers the question, create a submit button that will go to a fourth page, letting the user know if their answer was right or wrong. On this fourth page, add an area that holds a UIImageView, where the user can upload a picture of themselves. Make this image display inside the UIImageView.
+
+Create a button that goes to a fifth page. This fifth page should hold a WebViewKit, which loads the Sheridan website. https://www.sheridancollege.ca/
+
+Your app should be fully constrained and will be tested on iPhone 16, iPhone 16 Pro for consistency
+
+Use a UINavigationController for navigation within the entire app. Add titles to each page using the UINavigationController.
+
+Zip your submission as A1_StudentName.zip
